@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		378642D0269AC53400852C5A /* SearchResultCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378642CF269AC53400852C5A /* SearchResultCollectionViewCell.swift */; };
+		378642D8269AEF5F00852C5A /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 378642D7269AEF5F00852C5A /* DetailViewModel.swift */; };
+		FF9415B525EECD340029E28F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9415B425EECD340029E28F /* AppDelegate.swift */; };
+		FF9415B725EECD340029E28F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9415B625EECD340029E28F /* SceneDelegate.swift */; };
+		FF9415BB25EECD350029E28F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9415BA25EECD350029E28F /* Assets.xcassets */; };
+		FF9415BE25EECD350029E28F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9415BD25EECD350029E28F /* Preview Assets.xcassets */; };
+		FF9415C125EECD350029E28F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9415BF25EECD350029E28F /* LaunchScreen.storyboard */; };
+		FF9415CB25EED1360029E28F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9415CA25EED1360029E28F /* MainViewController.swift */; };
+		FF9415CF25EED15B0029E28F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FF9415CE25EED15B0029E28F /* SnapKit */; };
+		FF9415D225EED25A0029E28F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9415D125EED2590029E28F /* DetailViewController.swift */; };
+		FF9415D525EED60B0029E28F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9415D425EED60B0029E28F /* Constants.swift */; };
+		FF9415DB25EEDBB50029E28F /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9415DA25EEDBB50029E28F /* MainViewModel.swift */; };
+		FF9415DF25EEDC000029E28F /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = FF9415DE25EEDC000029E28F /* KingfisherSwiftUI */; };
+		FF9415E225EEDC3A0029E28F /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9415E125EEDC3A0029E28F /* SearchResult.swift */; };
+		FF9415E625EEDF380029E28F /* GifApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9415E525EEDF380029E28F /* GifApiClient.swift */; };
+		FF9415F625EEF5760029E28F /* GifInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9415F525EEF5760029E28F /* GifInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		378642CF269AC53400852C5A /* SearchResultCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCollectionViewCell.swift; sourceTree = "<group>"; };
+		378642D7269AEF5F00852C5A /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		FF9415B125EECD340029E28F /* Dispo Take Home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dispo Take Home.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9415B425EECD340029E28F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF9415B625EECD340029E28F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FF9415BA25EECD350029E28F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF9415BD25EECD350029E28F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF9415C025EECD350029E28F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF9415C225EECD350029E28F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9415CA25EED1360029E28F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FF9415D125EED2590029E28F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FF9415D425EED60B0029E28F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FF9415DA25EEDBB50029E28F /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		FF9415E125EEDC3A0029E28F /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		FF9415E525EEDF380029E28F /* GifApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifApiClient.swift; sourceTree = "<group>"; };
+		FF9415F525EEF5760029E28F /* GifInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifInfo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF9415AE25EECD340029E28F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9415DF25EEDC000029E28F /* KingfisherSwiftUI in Frameworks */,
+				FF9415CF25EED15B0029E28F /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF9415A825EECD340029E28F = {
+			isa = PBXGroup;
+			children = (
+				FF9415B325EECD340029E28F /* Dispo Take Home */,
+				FF9415B225EECD340029E28F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF9415B225EECD340029E28F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF9415B125EECD340029E28F /* Dispo Take Home.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF9415B325EECD340029E28F /* Dispo Take Home */ = {
+			isa = PBXGroup;
+			children = (
+				FF9415B425EECD340029E28F /* AppDelegate.swift */,
+				FF9415B625EECD340029E28F /* SceneDelegate.swift */,
+				FF9415E825EEEA4C0029E28F /* Main */,
+				FF9415EA25EEEA510029E28F /* Detail */,
+				FF9415EC25EEEA560029E28F /* Util */,
+				FF9415BA25EECD350029E28F /* Assets.xcassets */,
+				FF9415BF25EECD350029E28F /* LaunchScreen.storyboard */,
+				FF9415C225EECD350029E28F /* Info.plist */,
+				FF9415BC25EECD350029E28F /* Preview Content */,
+			);
+			path = "Dispo Take Home";
+			sourceTree = "<group>";
+		};
+		FF9415BC25EECD350029E28F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FF9415BD25EECD350029E28F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF9415E825EEEA4C0029E28F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FF9415CA25EED1360029E28F /* MainViewController.swift */,
+				FF9415DA25EEDBB50029E28F /* MainViewModel.swift */,
+				378642CF269AC53400852C5A /* SearchResultCollectionViewCell.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FF9415EA25EEEA510029E28F /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				FF9415D125EED2590029E28F /* DetailViewController.swift */,
+				378642D7269AEF5F00852C5A /* DetailViewModel.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		FF9415EC25EEEA560029E28F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				FF9415D425EED60B0029E28F /* Constants.swift */,
+				FF9415F525EEF5760029E28F /* GifInfo.swift */,
+				FF9415E125EEDC3A0029E28F /* SearchResult.swift */,
+				FF9415E525EEDF380029E28F /* GifApiClient.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF9415B025EECD340029E28F /* Dispo Take Home */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF9415C525EECD350029E28F /* Build configuration list for PBXNativeTarget "Dispo Take Home" */;
+			buildPhases = (
+				FF9415AD25EECD340029E28F /* Sources */,
+				FF9415AE25EECD340029E28F /* Frameworks */,
+				FF9415AF25EECD340029E28F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dispo Take Home";
+			packageProductDependencies = (
+				FF9415CE25EED15B0029E28F /* SnapKit */,
+				FF9415DE25EEDC000029E28F /* KingfisherSwiftUI */,
+			);
+			productName = "Dispo Take Home";
+			productReference = FF9415B125EECD340029E28F /* Dispo Take Home.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF9415A925EECD340029E28F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FF9415B025EECD340029E28F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = FF9415AC25EECD340029E28F /* Build configuration list for PBXProject "Dispo Take Home" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF9415A825EECD340029E28F;
+			packageReferences = (
+				FF9415CD25EED15B0029E28F /* XCRemoteSwiftPackageReference "snapkit" */,
+				FF9415DD25EEDC000029E28F /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = FF9415B225EECD340029E28F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF9415B025EECD340029E28F /* Dispo Take Home */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF9415AF25EECD340029E28F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9415C125EECD350029E28F /* LaunchScreen.storyboard in Resources */,
+				FF9415BE25EECD350029E28F /* Preview Assets.xcassets in Resources */,
+				FF9415BB25EECD350029E28F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF9415AD25EECD340029E28F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9415F625EEF5760029E28F /* GifInfo.swift in Sources */,
+				FF9415E625EEDF380029E28F /* GifApiClient.swift in Sources */,
+				FF9415DB25EEDBB50029E28F /* MainViewModel.swift in Sources */,
+				FF9415D525EED60B0029E28F /* Constants.swift in Sources */,
+				FF9415E225EEDC3A0029E28F /* SearchResult.swift in Sources */,
+				FF9415CB25EED1360029E28F /* MainViewController.swift in Sources */,
+				FF9415B525EECD340029E28F /* AppDelegate.swift in Sources */,
+				FF9415B725EECD340029E28F /* SceneDelegate.swift in Sources */,
+				FF9415D225EED25A0029E28F /* DetailViewController.swift in Sources */,
+				378642D8269AEF5F00852C5A /* DetailViewModel.swift in Sources */,
+				378642D0269AC53400852C5A /* SearchResultCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF9415BF25EECD350029E28F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF9415C025EECD350029E28F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF9415C325EECD350029E28F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF9415C425EECD350029E28F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF9415C625EECD350029E28F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Dispo Take Home/Preview Content\"";
+				DEVELOPMENT_TEAM = R82ZCJ8BWL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Dispo Take Home/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "takehome.dispo.Dispo-Take-Home";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF9415C725EECD350029E28F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Dispo Take Home/Preview Content\"";
+				DEVELOPMENT_TEAM = XTR8CJ799H;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Dispo Take Home/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "takehome.dispo.Dispo-Take-Home";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF9415AC25EECD340029E28F /* Build configuration list for PBXProject "Dispo Take Home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9415C325EECD350029E28F /* Debug */,
+				FF9415C425EECD350029E28F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF9415C525EECD350029E28F /* Build configuration list for PBXNativeTarget "Dispo Take Home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF9415C625EECD350029E28F /* Debug */,
+				FF9415C725EECD350029E28F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FF9415CD25EED15B0029E28F /* XCRemoteSwiftPackageReference "snapkit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/snapkit/snapkit.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.0.0;
+			};
+		};
+		FF9415DD25EEDC000029E28F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 5.15.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FF9415CE25EED15B0029E28F /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF9415CD25EED15B0029E28F /* XCRemoteSwiftPackageReference "snapkit" */;
+			productName = SnapKit;
+		};
+		FF9415DE25EEDC000029E28F /* KingfisherSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF9415DD25EEDC000029E28F /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = KingfisherSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FF9415A925EECD340029E28F /* Project object */;
+}
